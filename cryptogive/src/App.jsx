@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import axios from "axios";
 import Home from "./components/Home";
 import Donation from "./components/Donation";
+import About from "./components/About";
 
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
@@ -29,6 +30,7 @@ function App() {
       <Header />
       <Home />
       <Donation />
+      <About />
     </>
   );
 }
