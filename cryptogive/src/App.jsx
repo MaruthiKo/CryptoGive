@@ -1,17 +1,20 @@
-import './styles.css';
+import "./styles.css";
 // frontend/src/api.js
+import "./output.css";
+import Header from "./components/Header";
 
-import axios from 'axios';
+import axios from "axios";
+import Home from "./components/Home";
 
 // Set the base URL for your backend API
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = "http://localhost:5000/api";
 
 export const fetchUserData = async (userId) => {
   try {
     const response = await axios.get(`${API_BASE_URL}/users/${userId}`);
     return response.data;
   } catch (error) {
-    console.error('Error fetching user data:', error);
+    console.error("Error fetching user data:", error);
     return null;
   }
 };
@@ -19,14 +22,13 @@ export const fetchUserData = async (userId) => {
 // Other API functions
 // ...
 
-
 function App() {
-
   return (
-    <div>
-      Hello World
-    </div>
-  )
+    <>
+      <Header />
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
