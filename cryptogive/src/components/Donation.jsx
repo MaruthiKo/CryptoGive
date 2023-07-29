@@ -10,7 +10,7 @@ function Donation() {
         </p>
       </div>
       <div className="mx-auto mt-[65px] flex gap-10 justify-center pb-[107px]">
-        <div className="w-[355px] flex flex-col items-center text-center bg-[#FFFFEE] pb-[80px] border border-[#D4D4BD] rounded-[25px] pt-[53px] px-[34px]">
+        <div className="w-[355px] flex flex-col items-center text-center bg-[#FFFFEE] pb-[80px] border border-[#D4D4BD] rounded-[25px] pt-[53px] px-[34px] scale-90">
           <div className="w-[85px] h-[85px] bg-[#68E342] rounded-full flex justify-center items-center mb-[40px] text-[#FFFFF0] font-['inter'] text-[40px] font-bold">
             1
           </div>
@@ -23,7 +23,7 @@ function Donation() {
             lives. Together, let us create a positive impact on the world!
           </p>
         </div>
-        <div className="w-[355px] flex flex-col items-center text-center bg-[#FFFFEE] pb-[80px] border border-[#D4D4BD] rounded-[25px] pt-[53px] px-[34px] translate-y-4">
+        <div className="w-[355px] flex flex-col items-center text-center bg-[#FFFFEE] pb-[80px] border border-[#D4D4BD] rounded-[25px] pt-[53px] px-[34px] scale-90">
           <div className="w-[85px] h-[85px] bg-[#68E342] rounded-full flex justify-center items-center mb-[40px] text-[#FFFFF0] font-['inter'] text-[40px] font-bold">
             2
           </div>
@@ -37,7 +37,7 @@ function Donation() {
             meaningful.
           </p>
         </div>
-        <div className="w-[355px] flex flex-col items-center text-center bg-[#FFFFEE] pb-[80px] border border-[#D4D4BD] rounded-[25px] pt-[53px] px-[34px]">
+        <div className="w-[355px] flex flex-col items-center text-center bg-[#FFFFEE] pb-[80px] border border-[#D4D4BD] rounded-[25px] pt-[53px] px-[34px] scale-90">
           <div className="w-[85px] h-[85px] bg-[#68E342] rounded-full flex justify-center items-center mb-[40px] text-[#FFFFF0] font-['inter'] text-[40px] font-bold">
             3
           </div>

@@ -2,10 +2,14 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <header>
-      <nav className="flex pt-[50px] items-center justify-between px-[6.25rem] gap-12">
+    <header className="-mt-5">
+      <nav className="flex  items-center justify-between px-[6.25rem] gap-12">
         <div>
-          <p>LOGO</p>
+          <img
+            src="../../public/assets/CryptoGive.png"
+            alt="logo"
+            className="w-[200px] "
+          />
         </div>
         <div className="flex gap-8">
           <a href="#">About</a>
