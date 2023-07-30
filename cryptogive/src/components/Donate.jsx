@@ -3,7 +3,7 @@ function Donate() {
     <div className="flex flex-col justify-center text-center w-[21.875rem]">
       <div className="bg-white p-4 rounded-2xl drop-shadow-lg">
         <h2 className="w-72 text-[16px] m-auto font-bold mb-10">
-          Choose an amount to give and we"ll allocate it to vetted projects with
+          Choose an amount to give and we&quotll allocate it to vetted projects with
           the greatest impact
         </h2>
         <form>

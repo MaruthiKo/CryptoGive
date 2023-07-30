@@ -52,14 +52,14 @@ function Main() {
                 alt="quote"
                 className="ml-7 absolute mt-[-0.75rem]"
               />
-              <p className="p-6 text-xs">
+              <p className="p-6 text-s">
                 Give generously and make a difference this season! Your{" "}
                 <span className="text-[#CD46B2]">kind contribution</span> will
-                bring joy and encouragement to those who need it most. Let's
+                bring joy and encouragement to those who need it most. Let&aposs
                 come together to make the{" "}
                 <span className="text-[#CD46B2]">world a brighter place</span>{" "}
                 and bring hope to everyone. Help to spread warmth and kindness
-                and be the light in someone's life this holiday season!
+                and be the light in someone&aposs life this holiday season!
               </p>
             </div>
           </div>
