@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import DonationPage from "./pages/DonationPage";
 import SignupPage from "./pages/SignUpPage";
 
-// Import the Pages
+ 
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
 
@@ -37,8 +37,9 @@ function App() {
       <Donation />
       <About />
       <SignupPage />
-      <DonationPage />
+ 
       <Footer />
+ 
       <DonationPage />
     </>
   );
