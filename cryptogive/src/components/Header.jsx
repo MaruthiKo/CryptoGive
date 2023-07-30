@@ -5,11 +5,7 @@ export default function Header() {
     <header className="-mt-5">
       <nav className="flex  items-center justify-between px-[6.25rem] gap-12">
         <div>
-          <img
-            src="../../public/assets/CryptoGive.png"
-            alt="logo"
-            className="w-[200px] "
-          />
+          <img src="/assets/CryptoGive.png" alt="logo" className="w-[200px] " />
         </div>
         <div className="flex gap-8">
           <a href="#">About</a>
@@ -17,7 +13,7 @@ export default function Header() {
         </div>
         <div className="flex items-center gap-8">
           <a href="#">Log In</a>
-          <Button innerText="Donate Now" />
+          <Button innerText="Donate Now" backgroundColor="#68E342" />
         </div>
       </nav>
     </header>

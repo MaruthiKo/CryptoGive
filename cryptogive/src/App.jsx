@@ -1,16 +1,18 @@
+/* eslint-disable react-refresh/only-export-components */
 import "./styles.css";
 // frontend/src/api.js
 import "./output.css";
-import Header from "./components/Header";
 
 import axios from "axios";
+import Header from "./components/Header";
 import Home from "./components/Home";
 import Donation from "./components/Donation";
 import About from "./components/About";
-
-// Import the Pages
+import Footer from "./components/Footer";
 import DonationPage from "./pages/DonationPage";
 import SignupPage from "./pages/SignUpPage";
+
+ 
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
 
@@ -35,6 +37,9 @@ function App() {
       <Donation />
       <About />
       <SignupPage />
+ 
+      <Footer />
+ 
       <DonationPage />
     </>
   );
