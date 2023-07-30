@@ -10,10 +10,10 @@ export default function Home() {
         <p className="font-['inter']  font-normal text-xl text-[#050505] mb-4">
           Donate Digital Currencies for a Better World
         </p>
-        <Button innerText="Donate Now" width="250" />
+        <Button innerText="Donate Now" width="250" backgroundColor="#68E342" />
       </div>
       <div>
-        <img src="../../public/assets/about_image1.png" alt="seated children" />
+        <img src="/assets/about_image1.png" alt="seated children" />
       </div>
     </section>
   );

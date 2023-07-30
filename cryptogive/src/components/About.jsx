@@ -5,7 +5,7 @@ export default function About() {
         <div className=" max-w-[587px] max-h-[703px] pb-[103px]">
           <img
             className=" max-h-[500px] max-w-[316px]"
-            src="../../public/assets/about_image2.png"
+            src="/assets/about_image2.png"
             alt="money in hands"
           />
         </div>
@@ -43,7 +43,7 @@ export default function About() {
         <div className=" max-w-[587px] max-h-[703px] pb-[103px]">
           <img
             className="  max-w-[350px]"
-            src="../../public/assets/about_image3.png"
+            src="/assets/about_image3.png"
             alt="homeless person"
           />
         </div>
