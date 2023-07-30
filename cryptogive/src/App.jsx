@@ -9,6 +9,8 @@ import Home from "./components/Home";
 import Donation from "./components/Donation";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import DonationPage from "./pages/DonationPage";
+import SignupPage from "./pages/SignUpPage";
 
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
@@ -33,6 +35,8 @@ function App() {
       <Home />
       <Donation />
       <About />
+      <SignupPage />
+      <DonationPage />
       <Footer />
     </>
   );

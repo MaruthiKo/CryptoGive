@@ -19,13 +19,9 @@ export default function Footer() {
           <Button
             innerText="Donate Now"
             backgroundColor="#68E342"
-            width="200px"
+            width="200"
           />
-          <Button
-            innerText="About Us"
-            backgroundColor="#D6F5E2"
-            width="200px"
-          />
+          <Button innerText="About Us" backgroundColor="#D6F5E2" width="200" />
         </div>
       </div>
       <div className="flex justify-between items-center">
