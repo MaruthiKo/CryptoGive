@@ -1,11 +1,9 @@
 import ProgressContainer from "../components/ProgressContainer";
 import Donate from "../components/Donate";
-import Header from "../components/Header";
 
 function DonationPage() {
   return (
     <>
-      <Header />
       <Main />
     </>
   );

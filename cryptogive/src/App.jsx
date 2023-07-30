@@ -5,14 +5,14 @@ import "./output.css";
 
 import axios from "axios";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import Donation from "./components/Donation";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import DonationPage from "./pages/DonationPage";
 import SignupPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
- 
+import HomePage from "./pages/HomePage";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
 
@@ -32,14 +32,17 @@ export const fetchUserData = async (userId) => {
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Donation />
-      <About />
-      <Footer />
-      <SignupPage />
-      <DonationPage />
-      <LoginPage />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="about" element={<About />} />
+          <Route path="sign-up" element={<SignupPage />} />
+          <Route path="donation" element={<DonationPage />} />
+          <Route path="login" element={<LoginPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

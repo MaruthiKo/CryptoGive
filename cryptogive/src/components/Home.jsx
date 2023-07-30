@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <p className="font-['inter']  font-normal text-xl text-[#050505] mb-4">
           Donate Digital Currencies for a Better World
         </p>
-        <Button innerText="Donate Now" width="250" backgroundColor="#68E342" />
+        <Link to="/donation"><Button innerText="Donate Now" width="250" backgroundColor="#68E342" /></Link>
       </div>
       <div>
         <img src="/assets/about_image1.png" alt="seated children" />

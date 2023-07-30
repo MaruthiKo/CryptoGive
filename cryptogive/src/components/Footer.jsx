@@ -1,15 +1,18 @@
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <footer className="pl-[266px] flex flex-col gap-[100px] pr-[100px]">
       <div className="flex justify-center items-center">
         <div className=" ">
+          <Link to="/">
           <img
             src="/assets/CryptoGive.png"
             alt="logo"
             className="w-[200px] -ml-[35px]"
           />
+          </Link>
           <p className="-mt-[50px] text-[#373949] font-['inter'] font-medium leading-[30px] w-[59%] text-[17px]">
             Contribute to charities that are making a positive impact and
             receive a video showcasing the impact your support has had!
