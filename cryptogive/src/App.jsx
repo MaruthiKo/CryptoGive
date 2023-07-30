@@ -13,7 +13,6 @@ import DonationPage from "./pages/DonationPage";
 import SignupPage from "./pages/SignUpPage";
 
 // Import the Pages
-import DonationPage from "./pages/DonationPage";
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
 
